@@ -1,0 +1,5 @@
+#!/bin/sh
+javac $(find . -name \*.java)
+jar cvmf myManifest play5500.jar *
+jar -tf play5500.jar
+
